@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Learning Assistant</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+<div class="logo">
+
+AI Assistant
+
+</div>
+
+
+<div class="nav">
+
+<a href="#">Learn</a>
+
+<a href="#">how it works</a>
+
+<a href="#">contact</a>
+
+
+
+</div>
+
+</div>
+
+
+
+<!-- HERO TITLE -->
+
+<section class="hero-text">
+
+<h1>
+
+Learn Any Website<br>
+
+Using AI
+
+</h1>
+
+<p>
+
+Step-by-step guidance for beginners
+
+</p>
+
+</section>
+
+
+
+<!-- VIDEO HERO -->
+
+<section class="hero">
+
+
+<div class="video-container">
+
+<video autoplay loop muted playsinline>
+
+<source src="https://static.getmocha.com/blooms/bloom-hero.1080.mp4" type="video/mp4">
+
+</video>
+
+
+
+<!-- FLOATING AI BOX -->
+
+<div class="floating-box">
+
+<div class="ai-box">
+
+<input id="url" placeholder="Website URL">
+
+<input id="task" placeholder="What do you want to do?">
+
+<button onclick="generate()">
+
+Generate Guide
+
+</button>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- AI OUTPUT -->
+
+<section class="result-section">
+
+<div id="output"></div>
+
+</section>
+
+
+
+<script src="/static/script.js"></script>
+<!-- WHY SECTION -->
+
+<section class="why">
+
+    <h2>
+    
+    Why AI Web Learning Assistant?
+    
+    </h2>
+    
+    <p class="why-sub">
+    
+    Learn websites instantly without tutorials or documentation.
+    
+    </p>
+    
+    
+    <div class="cards">
+    
+    
+    <div class="card">
+    
+    <h3>
+    
+    Step-by-Step Learning
+    
+    </h3>
+    
+    <p>
+    
+    Understand any website with guided instructions.
+    
+    </p>
+    
+    </div>
+    
+    
+    <div class="card">
+    
+    <h3>
+    
+    AI Understanding
+    
+    </h3>
+    
+    <p>
+    
+    AI analyzes websites and explains features.
+    
+    </p>
+    
+    </div>
+    
+    
+    <div class="card">
+    
+    <h3>
+    
+    Beginner Friendly
+    
+    </h3>
+    
+    <p>
+    
+    Designed for users with no technical experience.
+    
+    </p>
+    
+    </div>
+    
+    
+    </div>
+    
+    </section>
+
+    <!-- WHY SECTION HEADER -->
+
+<section class="why-header">
+
+<div class="why-left-title">
+
+Why<br>
+AI Assistant?
+
+</div>
+
+
+<div class="why-right-text">
+
+<p>
+
+Learn new websites and applications faster with AI-powered
+step-by-step guidance.
+
+</p>
+
+<button onclick="scrollToTop()">
+
+Try Demo
+
+</button>
+
+</div>
+
+</section>
+
+
+    <!-- WHY PROJECT SECTION -->
+
+<section class="why-mocha">
+
+    <div class="why-container">
+    
+    
+    <div class="why-left">
+    
+    <h2>
+    
+    Understand any website instantly.<br>
+    Effortlessly.
+    
+    </h2>
+    
+    
+    <p>
+    
+        Get clear AI-generated instructions
+        to complete tasks quickly and confidently.
+    
+    </p>
+    
+    
+    <button onclick="scrollToTop()">
+    
+    Try it now
+    
+    </button>
+    
+    
+    </div>
+    
+    
+    </div>
+    
+    </section>
+    
+    
+    
+    <!-- USE CASES -->
+    
+    <section class="usecases">
+    
+    <h2>
+    
+    Use Cases
+    
+    </h2>
+    
+    
+    <div class="cards">
+    
+    
+    <div class="card">
+    
+    <h3>Learning Apps</h3>
+    
+    <p>
+    
+    Learn Instagram, YouTube, Spotify and more.
+    
+    </p>
+    
+    </div>
+    
+    
+    <div class="card">
+    
+    <h3>Software Training</h3>
+    
+    <p>
+    
+    Help employees learn software faster.
+    
+    </p>
+    
+    </div>
+    
+    
+    <div class="card">
+    
+    <h3>Customer Support</h3>
+    
+    <p>
+    
+    Reduce support requests with AI guides.
+    
+    </p>
+    
+    </div>
+    
+    
+    </div>
+    
+    </section>
+    
+    
+    
+    <!-- FAQ -->
+    
+    <section class="faq">
+    
+    <h2>
+    
+    Frequently Asked Questions
+    
+    </h2>
+    
+    
+    <div class="faq-item">
+    
+    <div onclick="toggle(this)" class="faq-title">
+    
+    What does this AI assistant do?
+    
+    </div>
+    
+    <div class="faq-text">
+    
+        This AI assistant helps you learn how to use any website or app step-by-step.
+        Just enter a website link and the task you want to perform.
+        The AI analyzes the platform and generates simple instructions.
+        It helps you complete tasks without tutorials or manuals.
+        Designed for fast and beginner-friendly learning.
+    
+    </div>
+    
+    </div>
+    
+    
+    
+    <div class="faq-item">
+    
+    <div onclick="toggle(this)" class="faq-title">
+    
+    Is this free?
+    
+    </div>
+    
+    <div class="faq-text">
+    
+        Yes. This AI assistant is free to use and runs locally on your computer. You don’t need a subscription or paid account.
+    
+    </div>
+    
+    </div>
+    
+    
+    
+    <div class="faq-item">
+    
+    <div onclick="toggle(this)" class="faq-title">
+    
+    Does it store data?
+    
+    </div>
+    
+    <div class="faq-text">
+    
+        No. This system does not store personal data, and all processing happens locally on your device. Local AI setups typically keep conversations on the user’s machine without sharing data externally.
+    
+    </div>
+    
+    </div>
+    
+    
+    </section>
+    
+    
+    
+    <footer class="video-footer">
+
+        <!-- Background Video -->
+        
+        <video autoplay loop muted playsinline preload="none">
+        
+        <source
+        src="https://static.getmocha.com/blooms/bloom-footer.webm"
+        type="video/webm">
+        
+        </video>
+        
+        
+        <!-- Overlay -->
+        
+        <div class="footer-overlay"></div>
+        
+        
+        <!-- Footer Content -->
+        
+        <div class="footer-content">
+        
+        
+        <h2>
+        Ready to learn any app with AI?
+        </h2>
+        
+        
+        <p>
+        Just enter a website and tell us what you want to do.
+        We’ll guide you step by step.
+        </p>
+        
+        
+        <button onclick="scrollToTop()">
+        Try the Assistant
+        </button>
+        
+        
+        
+        <!-- SOCIAL LINKS -->
+        
+        <div class="social-links">
+        
+        <a href="https://github.com/dashboard" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/balakumaran-b-a11783351/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+        </a>
+        
+        <a href="https://www.instagram.com/_.braxton__/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+        </a>
+        
+        </div>
+        
+        
+        
+        <!-- AUTHOR -->
+        
+        <div class="author">
+        
+        AI Web Learning Assistant © 2026  
+        Built by <b>Balakumaran ❤️</b>
+        
+        </div>
+        
+        
+        </div>
+        
+        </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

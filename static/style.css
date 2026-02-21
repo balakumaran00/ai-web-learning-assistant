@@ -1,0 +1,864 @@
+body{
+
+    margin:0;
+    
+    font-family:Arial;
+    
+    background:#f7f7f5;
+    
+    color:#111;
+    
+    }
+    
+    
+    /* NAVBAR */
+    
+    .navbar{
+    
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:center;
+    
+    padding:20px 60px;
+    
+    }
+    
+    
+    .logo{
+    
+    font-weight:bold;
+    
+    font-size:20px;
+    
+    }
+    
+    
+    .nav a{
+    
+    margin-right:25px;
+    
+    text-decoration:none;
+    
+    color:black;
+    
+    }
+    
+    
+    .signin{
+    
+    background:#9ef01a;
+    
+    border:none;
+    
+    padding:8px 16px;
+    
+    border-radius:20px;
+    
+    margin-right:10px;
+    
+    }
+    
+    
+    .join{
+    
+    background:black;
+    
+    color:white;
+    
+    border:none;
+    
+    padding:10px 18px;
+    
+    border-radius:20px;
+    
+    }
+    
+    
+    
+    /* HERO TEXT */
+    
+    .hero-text{
+    
+    text-align:center;
+    
+    margin-top:40px;
+    
+    }
+    
+    
+    .hero-text h1{
+    
+    font-size:72px;
+    
+    font-weight:800;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    
+    .hero-text p{
+    
+    color:#555;
+    
+    font-size:20px;
+    
+    }
+    
+    
+    
+    /* VIDEO HERO */
+    
+    .hero{
+    
+    text-align:center;
+    
+    margin-top:40px;
+    
+    }
+    
+    
+    .video-container{
+    
+    position:relative;
+    
+    width:900px;
+    
+    height:420px;
+    
+    margin:auto;
+    
+    border-radius:30px;
+    
+    overflow:hidden;
+    
+    }
+    
+    
+    
+    video{
+    
+    width:100%;
+    
+    height:100%;
+    
+    object-fit:cover;
+    
+    }
+    
+    
+    
+    /* FLOATING BOX */
+    
+    .floating-box{
+    
+    position:absolute;
+    
+    top:50%;
+    
+    left:50%;
+    
+    transform:translate(-50%,-50%);
+    
+    }
+    
+    
+    
+    .ai-box{
+    
+    background:white;
+    
+    padding:25px;
+    
+    border-radius:20px;
+    
+    box-shadow:0px 20px 50px rgba(0,0,0,0.15);
+    
+    width:420px;
+    
+    }
+    
+    
+    
+    input{
+    
+    width:100%;
+    
+    padding:14px;
+    
+    margin-bottom:10px;
+    
+    border-radius:10px;
+    
+    border:1px solid #ddd;
+    
+    font-size:16px;
+    
+    }
+    
+    
+    
+    button{
+    
+    width:100%;
+    
+    padding:14px;
+    
+    border-radius:25px;
+    
+    border:none;
+    
+    background:black;
+    
+    color:white;
+    
+    font-size:16px;
+    
+    cursor:pointer;
+    
+    }
+    
+    
+    
+    /* OUTPUT */
+    
+    .result-section{
+    
+    margin-top:60px;
+    
+    }
+    
+    
+    .output{
+    
+    max-width:700px;
+    
+    margin:40px auto;
+    
+    background:white;
+    
+    padding:30px;
+    
+    border-radius:20px;
+    
+    box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+    
+    line-height:1.8;
+    
+    font-size:18px;
+    
+    }
+
+
+    /* WHY SECTION */
+
+.why{
+
+    padding:100px 60px;
+    
+    text-align:center;
+    
+    }
+    
+    
+    .why h2{
+    
+    font-size:40px;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    
+    .why-sub{
+    
+    color:#666;
+    
+    margin-bottom:40px;
+    
+    }
+    
+    
+    
+    /* USE CASES */
+    
+    .usecases{
+    
+    padding:100px 60px;
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    /* CARDS */
+    
+    .cards{
+    
+    display:flex;
+    
+    justify-content:center;
+    
+    gap:30px;
+    
+    margin-top:40px;
+    
+    }
+    
+    
+    .card{
+    
+    background:white;
+    
+    padding:30px;
+    
+    border-radius:20px;
+    
+    width:250px;
+    
+    box-shadow:0px 10px 30px rgba(0,0,0,0.08);
+    
+    transition:0.3s;
+    
+    }
+    
+    
+    .card:hover{
+    
+    transform:translateY(-5px);
+    
+    }
+    
+    
+    
+    /* FAQ */
+    
+    .faq{
+    
+    padding:100px 60px;
+    
+    text-align:center;
+    
+    }
+    
+    
+    .faq-item{
+    
+    max-width:700px;
+    
+    margin:10px auto;
+    
+    text-align:left;
+    
+    border-bottom:1px solid #ddd;
+    
+    padding:15px;
+    
+    }
+    
+    
+    .faq-title{
+    
+    cursor:pointer;
+    
+    font-weight:bold;
+    
+    }
+    
+    
+    .faq-text{
+    
+    display:none;
+    
+    padding-top:10px;
+    
+    color:#555;
+    
+    }
+    
+    
+    
+    /* FOOTER */
+    
+    footer{
+    
+    margin-top:100px;
+    
+    padding:40px;
+    
+    text-align:center;
+    
+    color:#666;
+    
+    }
+
+    /* FIX AI BOX ALIGNMENT */
+
+.ai-box{
+    
+    background:white;
+    
+    padding:30px;
+    
+    border-radius:20px;
+    
+    box-shadow:0px 20px 50px rgba(0,0,0,0.15);
+    
+    width:420px;
+    
+    display:flex;
+    
+    flex-direction:column;
+    
+    gap:15px;
+    
+    }
+    
+    
+    
+    /* FIX INPUTS */
+    
+    .ai-box input{
+    
+    width:100%;
+    
+    padding:16px;
+    
+    border-radius:12px;
+    
+    border:1px solid #ddd;
+    
+    font-size:16px;
+    
+    box-sizing:border-box;
+    
+    margin:0;
+    
+    }
+    
+    
+    
+    /* FIX BUTTON */
+    
+    .ai-box button{
+    
+    width:100%;
+    
+    padding:16px;
+    
+    border-radius:30px;
+    
+    border:none;
+    
+    background:black;
+    
+    color:white;
+    
+    font-size:16px;
+    
+    cursor:pointer;
+    
+    margin-top:5px;
+    
+    }
+
+    /* VIDEO FOOTER */
+
+.video-footer{
+
+    position:relative;
+    
+    width:100%;
+    
+    height:420px;
+    
+    margin-top:120px;
+    
+    overflow:hidden;
+    
+    }
+    
+    
+  /* =========================
+   VIDEO FOOTER (FINAL)
+   ========================= */
+
+.video-footer{
+
+    position: relative;
+    
+    width: 100vw;
+    
+    height: 420px;
+    
+    margin-top: 120px;
+    
+    overflow: hidden;
+    
+    /* center full-width footer */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    }
+    
+    
+    
+    /* BACKGROUND VIDEO */
+    
+    .video-footer video{
+    
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    object-fit: cover;
+    
+    }
+    
+    
+    
+    
+    /* CONTENT CONTAINER */
+    
+    .footer-content{
+    
+    position: relative;
+    
+    z-index: 2;
+    
+    height: 100%;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+    
+    padding: 20px;
+    
+    }
+    
+    
+    
+    /* TITLE */
+    
+    .footer-content h2{
+    
+    font-size: 42px;
+    
+    font-weight: 700;
+    
+    margin-bottom: 10px;
+    
+    }
+    
+    
+    
+    /* DESCRIPTION */
+    
+    .footer-content p{
+    
+    max-width: 600px;
+    
+    margin-bottom: 25px;
+    
+    color: #000000;
+    
+    font-size: 18px;
+    
+    line-height: 1.6;
+    
+    }
+    
+    
+    
+    /* BUTTON */
+    
+    .footer-content button{
+    
+    padding: 14px 28px;
+    
+    border-radius: 30px;
+    
+    border: none;
+    
+    background: white;
+    
+    color: black;
+    
+    font-size: 16px;
+    
+    cursor: pointer;
+    
+    width: auto;
+    
+    min-width: 220px;
+    
+    transition: 0.2s;
+    
+    }
+    
+    
+    
+    /* BUTTON HOVER */
+    
+    .footer-content button:hover{
+    
+    background: #eeeeee;
+    
+    }
+
+    /* =========================
+   WHY MOCHA SECTION
+   ========================= */
+
+.why-mocha{
+
+    width:100%;
+    
+    margin-top:120px;
+    
+    padding:40px;
+    
+    }
+    
+    
+    /* MAIN BOX */
+    
+    .why-container{
+    
+    background:white;
+    
+    border-radius:20px;
+    
+    min-height:420px;
+    
+    display:flex;
+    
+    align-items:center;
+    
+    background-image:url("https://static.getmocha.com/why-mocha-1.png");
+    
+    background-repeat:no-repeat;
+    
+    background-position:right center;
+    
+    background-size:contain;
+    
+    box-shadow:0px 10px 40px rgba(0,0,0,0.05);
+    
+    }
+    
+    
+    
+    /* LEFT SIDE */
+    
+    .why-left{
+    
+    width:50%;
+    
+    padding:80px;
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    /* TITLE */
+    
+    .why-left h2{
+    
+    font-size:42px;
+    
+    font-weight:700;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    
+    
+    /* TEXT */
+    
+    .why-left p{
+    
+    font-size:18px;
+    
+    color:#666;
+    
+    margin-bottom:25px;
+    
+    line-height:1.6;
+    
+    }
+    
+    
+    
+    /* BUTTON */
+    
+    .why-left button{
+    
+    padding:12px 24px;
+    
+    border-radius:30px;
+    
+    border:none;
+    
+    background:black;
+    
+    color:white;
+    
+    font-size:16px;
+    
+    cursor:pointer;
+    
+    }
+    
+    
+    .why-left button:hover{
+    
+    background:#222;
+    
+    }
+
+    /* SOCIAL ICONS (FIXED SIZE) */
+
+.social-links{
+
+    margin-top:25px;
+    
+    display:flex;
+    
+    gap:18px;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    }
+    
+    
+    
+    /* ICON SIZE */
+    
+    .social-links img{
+    
+    width:22px;
+    
+    height:22px;
+    
+    object-fit:contain;
+    
+    filter:invert(1);
+    
+    transition:0.25s;
+    
+    }
+    
+    
+    
+    /* HOVER EFFECT */
+    
+    .social-links img:hover{
+    
+    transform:scale(1.2);
+    
+    opacity:0.85;
+    
+    }
+
+    /* ========================
+   WHY HEADER SECTION
+   ======================== */
+
+.why-header{
+
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:center;
+    
+    padding:120px 80px;
+    
+    background:#f5f4ef;
+    
+    }
+    
+    
+    
+    /* BIG LEFT TEXT */
+    
+    .why-left-title{
+    
+    font-size:90px;
+    
+    font-weight:600;
+    
+    line-height:100px;
+    
+    color:#222;
+    
+    }
+    
+    
+    
+    /* RIGHT SIDE */
+    
+    .why-right-text{
+    
+    max-width:500px;
+    
+    font-size:22px;
+    
+    color:#333;
+    
+    }
+    
+    
+    
+    /* BUTTON */
+    
+    .why-right-text button{
+    
+    margin-top:20px;
+    
+    padding:12px 24px;
+    
+    border-radius:30px;
+    
+    border:none;
+    
+    background:black;
+    
+    color:white;
+    
+    font-size:16px;
+    
+    cursor:pointer;
+    
+    }
+    
+    
+    .why-right-text button:hover{
+    
+    background:#222;
+    
+    }
+
+    
