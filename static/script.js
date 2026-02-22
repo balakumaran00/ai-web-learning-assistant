@@ -11,11 +11,9 @@ async function generate() {
     
     }
     
-    
     const output = document.getElementById("output")
     
     output.innerHTML = "Loading..."
-    
     
     
     /* STEP 1 — WEBSITE INFO */
@@ -42,7 +40,11 @@ async function generate() {
     
     <h2>About This Website</h2>
     
-    <p>${infoData.result}</p>
+    <div class="chat-style">
+    
+    ${formatText(infoData.result)}
+    
+    </div>
     
     <br>
     
@@ -78,7 +80,6 @@ async function generate() {
     
     })
     
-    
     const guideData = await guide.json()
     
     
@@ -105,7 +106,25 @@ async function generate() {
     
     
     
-    /* FORMAT LIKE CHATGPT */
+    /* CLEAN CHATGPT TEXT */
+    
+    function formatText(text){
+
+        // Remove extra blank lines
+        text = text.replace(/\n+/g,"\n")
+        
+        // Add spacing before numbered points
+        text = text.replace(/[0-9]+\./g,match=>"<br><br>"+match)
+        
+        // Convert lines to HTML
+        text = text.replace(/\n/g,"<br>")
+        
+        return text
+        
+        }
+    
+    
+    /* FORMAT STEPS LIKE CHATGPT */
     
     function formatSteps(text){
     
