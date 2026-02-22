@@ -1167,3 +1167,231 @@ body{
     max-height:300px;
     
     }
+
+    /* =========================
+PROFESSIONAL NAVBAR
+========================= */
+
+.navbar{
+
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:center;
+    
+    padding:22px 80px;
+    
+    background:#f7f7f5;
+    
+    position:sticky;
+    
+    top:0;
+    
+    z-index:1000;
+    
+    }
+    
+    
+    /* LOGO */
+    
+    .logo{
+    
+    font-size:22px;
+    
+    font-weight:700;
+    
+    letter-spacing:0.5px;
+    
+    }
+    
+    
+    /* NAV LINKS */
+    
+    .nav{
+    
+    display:flex;
+    
+    align-items:center;
+    
+    gap:30px;
+    
+    }
+    
+    
+    /* LINKS */
+    
+    .nav a{
+    
+    text-decoration:none;
+    
+    color:#222;
+    
+    font-size:16px;
+    
+    transition:0.2s;
+    
+    }
+    
+    
+    /* HOVER */
+    
+    .nav a:hover{
+    
+    opacity:0.6;
+    
+    }
+    
+    
+    /* BUTTON */
+    
+    .nav-btn{
+    
+    background:black;
+    
+    color:white;
+    
+    border:none;
+    
+    padding:10px 18px;
+    
+    border-radius:25px;
+    
+    font-size:14px;
+    
+    cursor:pointer;
+    
+    transition:0.2s;
+    
+    }
+    
+    
+    /* BUTTON HOVER */
+    
+    .nav-btn:hover{
+    
+    background:#222;
+    
+    }
+
+    /* =========================
+ SILICON VALLEY NAVBAR
+========================= */
+
+.navbar{
+
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:center;
+    
+    padding:20px 80px;
+    
+    background:#f7f7f5;
+    
+    position:sticky;
+    
+    top:0;
+    
+    z-index:999;
+    
+    border-bottom:1px solid #eee;
+    
+    }
+    
+    
+    /* LOGO */
+    
+    .logo{
+    
+    font-size:22px;
+    
+    font-weight:700;
+    
+    letter-spacing:0.3px;
+    
+    color:#111;
+    
+    }
+    
+    
+    
+    /* CENTER LINKS */
+    
+    .nav-links{
+    
+    display:flex;
+    
+    gap:40px;
+    
+    }
+    
+    
+    /* LINKS */
+    
+    .nav-links a{
+    
+    text-decoration:none;
+    
+    color:#333;
+    
+    font-size:16px;
+    
+    transition:0.2s;
+    
+    }
+    
+    
+    .nav-links a:hover{
+    
+    opacity:0.6;
+    
+    }
+    
+    
+    
+    /* RIGHT SIDE */
+    
+    .nav-right{
+    
+    display:flex;
+    
+    align-items:center;
+    
+    gap:15px;
+    
+    }
+    
+    
+    
+    /* TRY BUTTON */
+    
+    .try-btn{
+    
+    background:black;
+    
+    color:white;
+    
+    border:none;
+    
+    padding:10px 22px;
+    
+    border-radius:30px;
+    
+    font-size:15px;
+    
+    cursor:pointer;
+    
+    transition:0.2s;
+    
+    }
+    
+    
+    .try-btn:hover{
+    
+    background:#222;
+    
+    }
+
+    
