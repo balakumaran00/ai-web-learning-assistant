@@ -930,3 +930,240 @@ body{
             line-height:1.9;
             
             }
+
+            .faq-text{
+
+                max-height:0;
+                overflow:hidden;
+                transition:0.3s;
+                padding-top:0;
+                
+                }
+                
+                .faq-text.open{
+                
+                max-height:200px;
+                padding-top:10px;
+                
+                }
+
+                .faq-text{
+
+                    display:none;
+                    
+                    padding:15px 0;
+                    
+                    color:#555;
+                    
+                    line-height:1.6;
+                    
+                    font-size:16px;
+                    
+                    }
+
+                    /* FAQ FIX — TEXT CUTTING ISSUE */
+/* FAQ FINAL FIX (NO OVERLAP) */
+
+.faq{
+
+    width:100%;
+    
+    max-width:800px;
+    
+    margin:120px auto;
+    
+    padding:0 20px;
+    
+    }
+    
+    
+    .faq h2{
+    
+    text-align:center;
+    
+    font-size:36px;
+    
+    margin-bottom:40px;
+    
+    }
+    
+    
+    /* Each item */
+    
+    .faq-item{
+    
+    border-bottom:1px solid #ddd;
+    
+    padding:20px 0;
+    
+    display:block;
+    
+    clear:both;
+    
+    }
+    
+    
+    /* Question */
+    
+    .faq-title{
+    
+    font-size:20px;
+    
+    font-weight:600;
+    
+    cursor:pointer;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    
+    /* Answer */
+    
+    .faq-text{
+    
+    display:none;
+    
+    font-size:18px;
+    
+    color:#555;
+    
+    line-height:1.8;
+    
+    margin-top:10px;
+    
+    white-space:normal;
+    
+    }
+
+    /* CLEAN FAQ SECTION */
+
+.faq-clean {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.faq-clean h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+    padding-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* PROFESSIONAL FAQ */
+
+.faq-pro{
+
+    max-width:800px;
+    
+    margin:120px auto;
+    
+    padding:0 20px;
+    
+    }
+    
+    
+    .faq-pro h2{
+    
+    text-align:center;
+    
+    font-size:42px;
+    
+    margin-bottom:50px;
+    
+    }
+    
+    
+    
+    /* FAQ BOX */
+    
+    .faq-card{
+    
+    margin-bottom:18px;
+    
+    border-radius:20px;
+    
+    background:white;
+    
+    box-shadow:0px 5px 20px rgba(0,0,0,0.05);
+    
+    overflow:hidden;
+    
+    }
+    
+    
+    
+    /* QUESTION */
+    
+    .faq-question{
+    
+    padding:22px 25px;
+    
+    font-size:20px;
+    
+    font-weight:600;
+    
+    cursor:pointer;
+    
+    }
+    
+    
+    
+    /* ANSWER BOX */
+    
+    .faq-answer{
+    
+    background:#f5f4ef;
+    
+    padding:0px 25px;
+    
+    max-height:0;
+    
+    overflow:hidden;
+    
+    transition:0.35s;
+    
+    line-height:1.7;
+    
+    color:#444;
+    
+    }
+    
+    
+    
+    /* OPEN STATE */
+    
+    .faq-card.active .faq-answer{
+    
+    padding:20px 25px;
+    
+    max-height:300px;
+    
+    }
